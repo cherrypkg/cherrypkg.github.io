@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,500,900|Roboto+Mono&display=swap");
+
+@hot_pink: #FA1754;
+@light_gray: rgb(88, 88, 88);
+
+@code_font: "Roboto Mono";
+@formal_font: "Roboto";
+@informal_font: "Roboto";
+
+.logo {
+
+	display: inline-block;
+
+	border-radius: 100%;
+
+	border-bottom-color: darken(@hot_pink, 15%);
+	border-bottom-width: 7px;
+	border-bottom-style: solid;
+	
+	width: 35px;
+	height: 35px;
+
+	background-color: @hot_pink;
+
+	cursor: pointer;
+
+}
+
+.transition() {
+
+	transition: 0.2s all;
+
+} 
+
+@import "layout.less";
+@import "components.less";

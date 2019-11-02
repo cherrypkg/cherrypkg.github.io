@@ -1,0 +1,61 @@
+h1 {
+
+	color: @hot_pink;
+	font-size: 35pt;
+	font-family: @formal_font;
+	font-weight: 600;
+
+}
+
+h2 {
+
+	color: @hot_pink;
+	font-size: 20pt;
+	font-family: @formal_font;
+	font-weight: 600;
+
+}
+
+span, p, a {
+
+	color: @light_gray;
+	font-size: 13pt;
+	font-family: @informal_font;
+	font-weight: 500;
+
+}
+
+code, .code {
+
+	color: @hot_pink;
+	font-weight: bold;
+	font-family: @code_font;
+
+}
+
+button, .btn {
+
+	display: inline-block;
+
+	border: none;
+	border-radius: 3px;
+
+	padding: 10px 20px;
+
+	color: white;
+	font-size: 13pt;
+	font-family: @formal_font;
+	font-weight: 900;
+	text-decoration: none;
+	
+	&:hover {
+
+		background-color: darken(@hot_pink, 10%);
+
+	}
+
+	cursor: pointer;
+	.transition();
+	background-color: @hot_pink;
+
+}

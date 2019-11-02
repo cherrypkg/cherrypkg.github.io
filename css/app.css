@@ -1,0 +1,124 @@
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v20/KFOmCnqEu92Fr1Mu4mxP.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: local('Roboto Medium'), local('Roboto-Medium'), url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmEU9fBBc9.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: local('Roboto Black'), local('Roboto-Black'), url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmYUtfBBc9.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Roboto Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Roboto Mono'), local('RobotoMono-Regular'), url(https://fonts.gstatic.com/s/robotomono/v7/L0x5DF4xlVMF-BfR8bXMIjhLq3o.ttf) format('truetype');
+}
+.logo {
+  display: inline-block;
+  border-radius: 100%;
+  border-bottom-color: #c00437;
+  border-bottom-width: 7px;
+  border-bottom-style: solid;
+  width: 35px;
+  height: 35px;
+  background-color: #FA1754;
+  cursor: pointer;
+}
+* {
+  box-sizing: border-box;
+}
+html,
+body,
+#app {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+#menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 20px;
+  width: 100%;
+  font-size: 0;
+  box-shadow: 0 0 1px black;
+  background-color: white;
+  z-index: 10;
+}
+#main {
+  padding-top: 75px;
+}
+.fullscreen {
+  min-height: 87vh;
+}
+.large_padding {
+  padding: 40px;
+}
+.split {
+  display: flex;
+}
+.split > * {
+  display: inline-block;
+}
+.split.half_half > * {
+  width: 50%;
+}
+h1 {
+  color: #FA1754;
+  font-size: 35pt;
+  font-family: "Roboto";
+  font-weight: 600;
+}
+h2 {
+  color: #FA1754;
+  font-size: 20pt;
+  font-family: "Roboto";
+  font-weight: 600;
+}
+span,
+p,
+a {
+  color: #585858;
+  font-size: 13pt;
+  font-family: "Roboto";
+  font-weight: 500;
+}
+code,
+.code {
+  color: #FA1754;
+  font-weight: bold;
+  font-family: "Roboto Mono";
+}
+button,
+.btn {
+  display: inline-block;
+  border: none;
+  border-radius: 3px;
+  padding: 10px 20px;
+  color: white;
+  font-size: 13pt;
+  font-family: "Roboto";
+  font-weight: 900;
+  text-decoration: none;
+  cursor: pointer;
+  transition: 0.2s all;
+  background-color: #FA1754;
+}
+button:hover,
+.btn:hover {
+  background-color: #d9053e;
+}
